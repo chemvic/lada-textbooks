@@ -2,3 +2,13 @@ body{
     background-color:teal;
 display: inline-block;
 }
+.hero-title{
+    font-size: 36px;
+    font-family: Raleway, sans-serif;
+        font-weight: 700;
+        text-align: center;
+        line-height: 1.19;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+}
