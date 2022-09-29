@@ -1,6 +1,7 @@
 body{
     background-color:teal;
 display: inline-block;
+display: flex;
 }
 .hero-title{
     font-size: 36px;
