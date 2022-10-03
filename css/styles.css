@@ -21,8 +21,16 @@ column-width: 2000px;
         text-align: center;
 }
 .books{
-    display: inline-flexbox;
+    display: flex;
+    flex-wrap: wrap;
 }
 h2{
     color: greenyellow;
+}
+/* .textbook:nth-child(3n + 2){
+    margin:0 10px;
+    /* padding:5px; */
+} */
+.textbook{
+    margin:10px;
 }
