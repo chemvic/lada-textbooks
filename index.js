@@ -37,17 +37,16 @@ function showLocation(position) {
 }
 
 function getWeather(lat, lon) {
-    const API_KEY = "2e7139c6a4f80c6748f001736e0d42cb";
+    const API_KEY = "";
     const BASE_URL="https://api.openweathermap.org/data/2.5/weather"
   const url = `${BASE_URL}?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
 
   fetch(url)
     .then(response => response.json())
     .then(data => {
-      console.log(data); // выводим ответ API в консоль
-      // здесь можно написать код для обработки данных погоды
+      console.log(data);
     })
-    .catch(error => console.log(error)); // обработка ошибок
+    .catch(error => console.log(error));
 }
 
 getLocation();
