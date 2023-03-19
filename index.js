@@ -19,7 +19,8 @@ function getWeather(lat, lon) {
   fetch(url)
     .then(response => response.json())
     .then(data => {
-      console.log(data); 
+      console.log(data); // выводим ответ API в консоль
+      // здесь можно написать код для обработки данных погоды
     })
     .catch(error => console.log(error));
 }
