@@ -1,26 +1,3 @@
-// var options = {
-//   enableHighAccuracy: true,
-//   timeout: 5000,
-//   maximumAge: 0
-// };
-// let crd = {};
-// function success(pos) {
-//    crd = pos.coords;
-// console.log(crd);
-//   console.log('Ваше текущее местоположение:');
-//   console.log(`Широта: ${crd.latitude}`);
-//   console.log(`Долгота: ${crd.longitude}`);
-// //   console.log(`Плюс-минус ${crd.accuracy} метров.`);
-//     return crd;
-// };
-// console.log(crd);
-
-// function error(err) {
-//   console.warn(`ERROR(${err.code}): ${err.message}`);
-// };
-
-// navigator.geolocation.getCurrentPosition(success);
-
 let geolocation = navigator.geolocation;
 let lat = 0;
 let lon = 0;
